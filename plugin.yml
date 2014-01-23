@@ -1,0 +1,14 @@
+name: Hand of Herobrine
+main: com.ivalicemud.hoh.HoH
+version: 1.0.0
+
+   
+commands:
+   hoh:
+      description: Main commands for the HoH plugin
+      usage: /hoh <options>
+
+permissions:
+   hoh.punish:
+      description: Does not let a player join HoH
+      default: false
